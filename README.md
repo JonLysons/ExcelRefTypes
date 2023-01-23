@@ -48,15 +48,13 @@ Delete an endpoint    If you delete Sheet2 or Sheet6, Excel adjusts the calculat
 
 You can also use a reference style where both the rows and the columns on the worksheet are numbered. The R1C1 reference style is useful for computing row and column positions in macros. In the R1C1 style, Excel indicates the location of a cell with an "R" followed by a row number and a "C" followed by a column number.
 
-R[-2]C     A relative reference to the cell two rows up and in the same column
-
-R[2]C[2]   A relative reference to the cell two rows down and two columns to the right
-
-R2C2       An absolute reference to the cell in the second row and in the second column
-
-R[-1]      A relative reference to the entire row above the active cell
-
-R          An absolute reference to the current row
+| Reference | Meaning |
+| --- | --- |
+| R[-2]C | A relative reference to the cell two rows up and in the same column |
+| R[2]C[2] | A relative reference to the cell two rows down and two columns to the right |
+| R2C2 | An absolute reference to the cell in the second row and in the second column |
+| R[-1] | A relative reference to the entire row above the active cell |
+| R | An absolute reference to the current row |
 
 When you record a macro, Excel records some commands by using the R1C1 reference style. For example, if you record a command, such as clicking the AutoSum button to insert a formula that adds a range of cells, Excel records the formula by using R1C1 style, not A1 style, references.
 
