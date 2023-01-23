@@ -1,4 +1,4 @@
-# ExcelRefTypes
+# Excel Reference Types
 
  The difference between absolute, relative and mixed references
 
